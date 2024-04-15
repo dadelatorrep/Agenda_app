@@ -3,6 +3,8 @@ La aplicación ofrece la funcionalidad de ingresar información básica de conta
 
 Evidencia de la funcionalidad:
   Guadar datos
-  ![Screenshot_20240414_133505](https://github.com/dadelatorrep/Agenda_app/assets/138709511/e3ff1af6-fc64-4ce7-be11-f6f81f396f1c)
-  Cargar datos
-  ![Screenshot_20240414_133532](https://github.com/dadelatorrep/Agenda_app/assets/138709511/cfbd90bd-003e-4f3c-9bb9-44915f0d8a72)
+  ![01_Save](https://github.com/dadelatorrep/Agenda_app/01_Save.png)
+  Cargar datos (correcto)
+  ![02_Load_sucess](https://github.com/dadelatorrep/Agenda_app/02_Load_Success.png)
+  Cargar datos (incorrecto)
+  ![03_Load_fail](https://github.com/dadelatorrep/Agenda_app/03_Load_Fail.png)

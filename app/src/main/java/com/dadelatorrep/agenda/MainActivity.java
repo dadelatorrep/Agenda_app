@@ -100,8 +100,10 @@ public class MainActivity extends AppCompatActivity {
             }
         }
 
-        // Mostrar un mensaje si no se encontró ningún contacto con el ID especificado
-        if (!encontrado) {
+        // Mostrar una notificación si se encontró y mostró exitosamente el contacto
+        if (encontrado) {
+            Toast.makeText(this, "El contacto se ha encontrado y mostrado exitosamente.", Toast.LENGTH_LONG).show();
+        } else {
             Toast.makeText(this, "No se encontró ningún contacto con el ID especificado", Toast.LENGTH_LONG).show();
         }
     }
