@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
         boolean encontrado = false;
         for (String contactoString : contactosSet) {
             String[] partesContacto = contactoString.split(",");
-            String idContacto = partesContacto[1]; // Suponiendo que el ID está en la posición del teléfono
+            String idContacto = partesContacto[0]; // Suponiendo que el ID está en la posición del teléfono
 
             // Si el ID coincide, mostrar los detalles del contacto
             if (idContacto.equals(idBuscar)) {
@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
         if (encontrado) {
             Toast.makeText(this, "El contacto se ha encontrado y mostrado exitosamente.", Toast.LENGTH_LONG).show();
         } else {
-            Toast.makeText(this, "No se encontró ningún contacto con el ID especificado", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "No se encontró ningún contacto con el Nombre especificado", Toast.LENGTH_LONG).show();
         }
     }
 
